@@ -1,3 +1,7 @@
-const greet = require('./module_rapper_function');
+import ageInMonths,{ageInDays} from "./es6_imports/age.mjs";
 
-greet('sharjeel');
+const ageInMonth=ageInMonths(20);
+console.log("Age in months",ageInMonth);
+
+const ageInDay=ageInDays(20);
+console.log("Age in days",ageInDay);
